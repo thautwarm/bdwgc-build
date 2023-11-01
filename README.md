@@ -17,5 +17,7 @@ This project provides a simple way to build the Boehm-Demers-Weiser conservative
 ```bash
 python make.py build-win-x64     # output dist/x86_64/libgc.dll
 python make.py build-linux-x64   # output dist/x86_64/libgc.so
+
+# need a macos machine to include <CoreFoundation.h>, etc.
 python make.py build-macos-x64   # output dist/x86_64/libgc.dylib
 ```
