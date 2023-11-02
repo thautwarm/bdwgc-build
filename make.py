@@ -34,6 +34,7 @@ CFLAGS = [
     *BDWGC_DEFAULT_FLAGS,
 ]
 CFLAGS.append("-fPIC")
+CFLAGS.append("-O2")
 
 IncludeDirs = ["./bdwgc/include", "./bdwgc/libatomic_ops/src"]
 
